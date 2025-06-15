@@ -49,12 +49,29 @@ body {
 }
 
 #cabecera>#contenedor-carrusel {
+    position: relative;
     width: 100%;
     height: auto;
 }
 
 #cabecera>#contenedor-carrusel>img {
     width: 100%;
+}
+
+.carousel-dots {
+    border: 1px solid #d70d0d;
+    position: absolute;
+    display: flex;
+    gap: 15px;
+
+    top: 90%;
+}
+
+.dot {
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 50%;
 }
 
 #contenido-principal {
