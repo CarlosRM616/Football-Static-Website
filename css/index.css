@@ -11,7 +11,7 @@ body {
 #cabecera {
     background-color: #FFC700;
     width: 100%;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
 }
 
 #cabecera>div {
@@ -39,7 +39,7 @@ body {
 }
 
 #cabecera>div>button {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     height: 80%;
     width: 18ch;
     background-color: #000;
