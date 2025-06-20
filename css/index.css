@@ -139,6 +139,15 @@ body {
     border: 1px solid blue;
 }
 
+#gallery>#carousel-dots-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 0;
+    overflow: hidden;
+}
+
 #FAQ {
     border: 1px solid green;
 }
