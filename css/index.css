@@ -135,19 +135,66 @@ body {
     box-shadow: 15px 15px #ffc700;
 }
 
-#gallery {
-    border: 1px solid blue;
+#gallery>h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
-#gallery>#carousel-dots-gallery {
+#gallery>.carousel-gallery {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding: 50px 0;
+    padding: 50px 0px 15px 0px;
     overflow: hidden;
+}
+
+.carousel-dots-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.dot-gallery {
+    width: 35px;
+    height: 35px;
+    background-color: #FFC700;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 #FAQ {
     border: 1px solid green;
+}
+
+#FAQ>h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#FAQ>details {
+    position: relative;
+    width: 80%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #FFC700;
+    margin-bottom: 15px;
+
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#FAQ>details>summary {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
 }
