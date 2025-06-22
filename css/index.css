@@ -165,7 +165,7 @@ body {
 }
 
 #FAQ {
-    border: 1px solid green;
+    padding: 100px 0;
 }
 
 #FAQ>h2 {
@@ -178,23 +178,74 @@ body {
 #FAQ>details {
     position: relative;
     width: 80%;
-    height: 60px;
-    border-radius: 10px;
-    background-color: #FFC700;
-    margin-bottom: 15px;
 
     left: 50%;
     transform: translateX(-50%);
+    
+    text-align: center;
 }
 
 #FAQ>details>summary {
-    position: absolute;
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 1.2rem;
     font-weight: bold;
     cursor: pointer;
+
+    background-color: #FFC700;
+    padding: 20px 0;
+
+    border-radius: 10px 10px 0 0;
+    border: none;
+
+    margin-top: 15px;
+}
+
+#FAQ>details>p {
+    background-color: #EBEBEB;
+    padding: 20px 0;
+
+    outline: 1px solid #000;
+}
+
+#pie-pagina {
+    background-color: #000;
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+#pie-pagina>div {
+    outline: 1px solid #fff;
+    padding: 20px 0;
+}
+
+#pie-pagina>#info {
+    flex: 1 1 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+#pie-pagina>#quicklinks {
+    flex: 1 1 20%;
+}
+
+#pie-pagina>#privacypolicy {
+    flex: 1 1 20%;
+}
+
+#pie-pagina>#contactinfo {
+    flex: 1 1 20%;
+}
+
+#pie-pagina>#copyright {
+    flex: 1 1 100%;
+    background-color: #FFC700;
+    text-align: center;
+    font-weight: bold;
 }
