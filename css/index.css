@@ -273,3 +273,46 @@ body {
     text-align: center;
     font-weight: bold;
 }
+
+@media (max-width: 768px) {
+  #cabecera > div {
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    padding: 10px;
+  }
+
+  #aboutus {
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 20px;
+  }
+
+  #gallery .carousel-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #pie-pagina {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #pie-pagina > div {
+    flex: 1 1 100%;
+  }
+
+  #aboutus img {
+    width: 90%;
+  }
+
+  #aboutus-text {
+    width: 100% !important;
+  }
+
+  .B-appointment {
+    width: auto !important;
+    padding: 10px 20px;
+  }
+}
